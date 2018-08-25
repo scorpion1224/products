@@ -46,7 +46,7 @@ def main():
 	print_products(products)
 	write_file('products.csv', products)
 
-
+if __name__ == '__main__':​
 main()
 
 #refactor重构
